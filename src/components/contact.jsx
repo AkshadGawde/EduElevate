@@ -75,11 +75,11 @@ export const Contact = (props) => {
           <p className="mt-8 text-xl text-center">
             © 2024{" "}
             <a
-              href="https://www.thedd.tech/"
+              href="https://67d065cd6cf1e58161d75911--silver-sfogliatella-7c260f.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              TheDDtech
+              EDUELEVATE
             </a>{" "}
             - All rights reserved
           </p>
