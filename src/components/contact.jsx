@@ -1,43 +1,26 @@
-import { useState } from "react";
-
 import React from "react";
-// import { IoLogoWhatsapp } from "react-icons/io";
+// const initialState = {
+//   name: "",
+//   email: "",
+//   message: "",
+// };
 
-const initialState = {
-  name: "",
-  email: "",
-  message: "",
-};
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  // const [{ name, email, message }, setState] = useState(initialState);
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setState((prevState) => ({ ...prevState, [name]: value }));
-  };
-  const clearState = () => setState({ ...initialState });
+  // const handleChange = (e) => {
+  //   const { name, value } = e.target;
+  //   setState((prevState) => ({ ...prevState, [name]: value }));
+  // };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(name, email, message);
+  // const clearState = () => setState({ ...initialState });
 
-    ```
-{/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   console.log("Form Submitted:", { name, email, message });
+  //   clearState();
+  // };
 
-emailjs
-  .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
-  .then(
-    (result) => {
-      console.log(result.text);
-      clearState();
-    },
-    (error) => {
-      console.log(error.text);
-    }
-  );
-
-```;
-  };
   return (
     <div>
       <div id="contact">
@@ -46,17 +29,16 @@ emailjs
             <div className="row">
               <div className="section-title">
                 <h2>Get In Touch</h2>
-                <p>Press the button to open a whatsapp chat with us.</p>
+                <p>Press the button to open a WhatsApp chat with us</p>
               </div>
-              <div className="btn-container">
-                {/* <a
+              {/* <div className="btn-container">
+                <a
                   href="https://wa.me/917208549842"
                   className="btn btn-custom btn-lg"
                 >
-               <IoLogoWhatsapp /> contact us !    
-             
-                  </a> */}
-              </div>
+                  Contact us on WhatsApp
+                </a>
+              </div> */}
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
@@ -66,7 +48,6 @@ emailjs
                 <i className="fa fa-map-marker"></i> Address
               </span>{" "}
               <a href="https://g.co/kgs/Ya49vZC">
-                {" "}
                 <span> {props.data ? props.data.address : "loading"}</span>
               </a>
             </div>
@@ -87,29 +68,6 @@ emailjs
               </a>
             </div>
           </div>
-          {/* <div className="col-md-12">
-<div className="row">
-<div className="social">
-<ul>
-<li>
-<a href={props.data ? props.data.facebook : "/"}>
-<i className="fa fa-facebook"></i>
-</a>
-</li>
-<li>
-<a href={props.data ? props.data.twitter : "/"}>
-<i className="fa fa-twitter"></i>
-</a>
-</li>
-<li>
-<a href={props.data ? props.data.youtube : "/"}>
-<i className="fa fa-youtube"></i>
-</a>
-</li>
-</ul>
-</div>
-</div>
-</div> */}
         </div>
       </div>
       <div id="footer">
