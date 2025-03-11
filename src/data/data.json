@@ -171,23 +171,23 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Experienced Faculty",
-      "text": "Our faculty brings extensive industry knowledge and expertise to the classroom, ensuring academic excellence. Learn from the best and gain invaluable insights to shape your engineering journey."
+      "title": "Structured Programs",
+      "text": "Stay on track with your CFA preparation through our structured programs. Our comprehensive curriculum covers all aspects of the CFA exam, ensuring you are well-prepared to excel in your academic journey."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Small Batch Size",
-      "text": "Experience personalized attention with our small batch sizes. Each student receives individualized support, fostering a conducive learning environment where questions are encouraged and no one gets left behind."
+      "title": "Live & Recorded Lectures",
+      "text": "Learn at your pace, anytime, anywhere with our live and recorded lectures. Our flexible learning approach allows you to balance your education with other commitments, ensuring a seamless learning experience."
     },
     {
       "icon": "fa fa-group",
-      "title": "Personal Mentorship",
-      "text": "Unlock your potential with our personalized mentorship program. Our dedicated mentors offer tailored guidance and support every step of the way, helping you thrive in both career and academia."
+      "title": "Performance Tracking",
+      "text": "Stay on track with your CFA preparation through our performance tracking tools. Monitor your progress, identify areas of improvement, and receive personalized feedback to enhance your learning experience."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Student Improvement",
-      "text": "Our comprehensive education approach focuses on your growth and development. Through innovative teaching methods and continuous feedback, we empower you to achieve academic success and realize your goals."
+      "title": "Mock Exams & Practice Questions",
+      "text": "Strengthen concepts with real exam simulations and practice questions. Our comprehensive mock exams and practice tests prepare you for the rigors of engineering exams, ensuring you excel in your academic journey."
     }
   ]
 }
