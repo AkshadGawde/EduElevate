@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { IoLogoWhatsapp } from "react-icons/io";
+// import { IoLogoWhatsapp } from "react-icons/io";
 
 export const Navigation = (props) => {
   // State to control menu collapse

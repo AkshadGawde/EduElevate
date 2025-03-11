@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import React from "react";
-import { IoLogoWhatsapp } from "react-icons/io";
+// import { IoLogoWhatsapp } from "react-icons/io";
 
 const initialState = {
   name: "",
